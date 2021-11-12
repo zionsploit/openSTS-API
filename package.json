@@ -1,0 +1,30 @@
+{
+  "name": "opensis",
+  "version": "1.0.0",
+  "description": "Open Student Information System API",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Student",
+    "Information"
+  ],
+  "author": "John Mark Banisilon",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "cors": "^2.8.5",
+    "date-fns": "^2.25.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.0.1",
+    "mssql": "^7.2.1",
+    "nodemon": "^2.0.14"
+  }
+}
